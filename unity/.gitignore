@@ -1,6 +1,7 @@
 #################
 ## npm
 #################
-Library
-Temp
-Assets/Standard\ Assets
+Library/
+Temp/
+Assets/Standard\ Assets/
+Assets/Myo\ Samples/

@@ -10,3 +10,6 @@ In order to build, you first need to add these Standard Assets. Click on `Assets
 - Scripts
 - Skyboxes
 - Terrain
+
+##TODO in the Future##
+- Update gitignore to remove standard assets and myo samples folders
