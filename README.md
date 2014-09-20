@@ -11,5 +11,7 @@ In order to build, you first need to add these Standard Assets. Click on `Assets
 - Skyboxes
 - Terrain
 
+Additionally, this project uses the Rune Sword asset located [here in the Unity Asset Store](https://www.assetstore.unity3d.com/en/#!/content/12152)
+
 ##TODO in the Future##
-- Update gitignore to remove standard assets and myo samples folders
+- Keep gitignore updated in such a way that large asset files and samples are ignored

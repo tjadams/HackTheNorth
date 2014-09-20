@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{C3DA89E1-70C6-7D6C-993E-C8F831D35880}</ProjectGuid>
+	<ProjectGuid>{29AAFBFD-D74B-E405-AA5A-A2BCA0FB7951}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
 	<BaseDirectory>Assets</BaseDirectory>
@@ -46,20 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Myo\Scripts\Myo.NET\EventTypes.cs" />
-     <Compile Include="Assets\Myo\Scripts\Myo.NET\Hub.cs" />
-     <Compile Include="Assets\Myo\Scripts\Myo.NET\Myo.cs" />
-     <Compile Include="Assets\Myo\Scripts\Myo.NET\Pose.cs" />
-     <Compile Include="Assets\Myo\Scripts\Myo.NET\Properties\AssemblyInfo.cs" />
-     <Compile Include="Assets\Myo\Scripts\Myo.NET\Quaternion.cs" />
-     <Compile Include="Assets\Myo\Scripts\Myo.NET\Vector3.cs" />
-     <Compile Include="Assets\Myo\Scripts\Myo.NET\libmyo.cs" />
-     <Compile Include="Assets\Myo\Scripts\ThalmicHub.cs" />
-     <Compile Include="Assets\Myo\Scripts\ThalmicMyo.cs" />
-     <Compile Include="Assets\Scripts\CameraController.cs" />
-     <Compile Include="Assets\Scripts\ColorBoxByPose.cs" />
-     <Compile Include="Assets\Scripts\JointOrientation.cs" />
-     <Compile Include="Assets\Scripts\SampleSceneGUI.cs" />
+     <Compile Include="Assets\Scripts\Sway.js" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Myo\README-MyoUnity.txt" />
   </ItemGroup>
