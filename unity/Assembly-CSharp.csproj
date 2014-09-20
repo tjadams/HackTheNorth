@@ -63,6 +63,7 @@
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\SampleSceneGUI.cs" />
      <Compile Include="Assets\Scripts\TouchLogic.cs" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Myo\README-MyoUnity.txt" />
   </ItemGroup>
   <ItemGroup>
