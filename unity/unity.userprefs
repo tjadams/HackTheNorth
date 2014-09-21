@@ -1,9 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\JointOrientation.cs">
     <Files>
-      <File FileName="Assets\Scripts\SampleSceneGUI.cs" Line="37" Column="59" />
-      <File FileName="Assets\Scripts\JointOrientation.cs" Line="56" Column="5" />
+      <File FileName="Assets\Scripts\JointOrientation.cs" Line="41" Column="45" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
