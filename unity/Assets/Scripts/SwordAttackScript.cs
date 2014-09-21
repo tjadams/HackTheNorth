@@ -4,10 +4,11 @@ using System.Collections;
 public class SwordAttackScript : MonoBehaviour {
 
 	private bool inCollision = false;
+	public bool friendlyFire = false;
 
 	// Use this for initialization
 	void Start () {
-	
+		renderer.enabled = false;
 	}
 	
 	// Update is called once per frame
@@ -19,10 +20,11 @@ public class SwordAttackScript : MonoBehaviour {
 		Debug.Log ("It hit something!");
 		string hitted = collision.collider.name;
 		//only detects if the collider is a character, else do nothing
-		if (hitted.Contains("CharBody") && !inCollision) {
+		bool isParent = gameObject.GetComponent<Transform> ().parent.name.Equals (hitted);
+		if (hitted.Contains("CharBody") && !inCollision && (!isParent || friendlyFire)) {
 			//we can integrate something that can calculate the damage from how hard the swing is here
 			CharacterProperties hitChar = GameObject.Find(hitted).GetComponent<CharacterProperties>();
-			float yAngle = gameObject.GetComponent<Transform>().eulerAngles.y;
+			float yAngle = gameObject.GetComponentInParent<Transform>().GetComponentInParent<Transform>().eulerAngles.y;
 			hitChar.HpLoss(20, yAngle);
 			inCollision = true;
 		}

@@ -10,7 +10,7 @@ public class DamageTextController : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		if (ticksToGone != 0)
 						ticksToGone--;
 		if (ticksToGone <= 0)
