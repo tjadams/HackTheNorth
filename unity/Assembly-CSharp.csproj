@@ -57,9 +57,13 @@
      <Compile Include="Assets\Myo\Scripts\ThalmicHub.cs" />
      <Compile Include="Assets\Myo\Scripts\ThalmicMyo.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\CharacterProperties.cs" />
      <Compile Include="Assets\Scripts\ColorBoxByPose.cs" />
+     <Compile Include="Assets\Scripts\CubeScriptTest.cs" />
+     <Compile Include="Assets\Scripts\DamageTextController.cs" />
      <Compile Include="Assets\Scripts\JointOrientation.cs" />
      <Compile Include="Assets\Scripts\SampleSceneGUI.cs" />
+     <Compile Include="Assets\Scripts\SwordAttackScript.cs" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Myo\README-MyoUnity.txt" />
   </ItemGroup>
