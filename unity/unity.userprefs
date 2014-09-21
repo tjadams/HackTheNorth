@@ -1,11 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\JointOrientation.cs">
     <Files>
-      <File FileName="Assets\Scripts\Bob.js" Line="3" Column="13" />
-      <File FileName="Assets\Scripts\Sway.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\JointOrientation.cs" Line="122" Column="40" />
-      <File FileName="Assets\Scripts\SampleSceneGUI.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SampleSceneGUI.cs" Line="37" Column="59" />
+      <File FileName="Assets\Scripts\JointOrientation.cs" Line="56" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
