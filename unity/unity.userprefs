@@ -1,12 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Rune Sword\Sword model\Sway.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\JointOrientation.cs">
     <Files>
-      <File FileName="unity.sln" Line="1" Column="1" />
-      <File FileName="Assets\Rune Sword\Sword model\Sway.js" Line="1" Column="3" />
-      <File FileName="..\..\..\StickBattlefield\Assets\Scripts\Joystick.cs" Line="1" Column="1" />
-      <File FileName="..\..\..\StickBattlefield\Assets\Scripts\PlayerController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Myo\README-MyoUnity.txt" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\JointOrientation.cs" Line="41" Column="45" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
